@@ -16,17 +16,17 @@ jobs:
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: mt7622
-            vermagic: "afd40c8eeeeb9c2687b86b1756cbcd8d"
+            vermagic: "afd40c8eeeeb9c2687b86b1756cbcd8d-r"
           - tag: "24.10.3"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: mt7622
-            vermagic: "afd40c8eeeeb9c2687b86b1756cbcd8d"
+            vermagic: "afd40c8eeeeb9c2687b86b1756cbcd8d-r"
           - tag: "24.10.3"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: mt7622
-            vermagic: "afd40c8eeeeb9c2687b86b1756cbcd8d"
+            vermagic: "afd40c8eeeeb9c2687b86b1756cbcd8d-r"
             
     steps:
       - uses: actions/checkout@v4
